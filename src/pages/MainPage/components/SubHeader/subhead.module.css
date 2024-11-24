@@ -1,0 +1,55 @@
+
+.subHeader {
+    display: grid;
+    gap: var(--padding-lg);
+    grid-template-rows: 110px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.A {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    font-size: 18px;
+}
+
+.A img {
+    height: 70px;
+}
+
+.B {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 1 ;
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.about:not(:last-child) {
+    border-right: 1px solid var(--color-bg-contrast);
+}
+.about p {
+    font-weight: 200;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.description{
+    font-size: 14px;
+}
+.badge{
+    max-width: 93.5px;
+}

@@ -1,0 +1,21 @@
+.h{
+	margin: 0;
+}
+
+.sm{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.md{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.lg{
+	font-size: 18px;
+	line-height: 25.2px;
+}
+.secondary {
+    color: var(--color-secondary);
+}

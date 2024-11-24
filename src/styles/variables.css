@@ -1,0 +1,31 @@
+:root {
+  --color-text: #2D3748;
+  --color-bg: #F8F9FA;
+  --color-bg-contrast: #FFFFFF;
+  --color-secondary: #A0AEC0;
+  --color-primary: #4FD1C5;
+  --color-accent: #44A5FE;
+
+
+
+  --color-text-contrast: var(--color-bg-contrast);
+  --color-card-default: var(--color-bg-contrast);
+  --color-card-contrast: var(--color-primary);
+
+  --size-10px: 10px; 
+  --size-12px: 12px;  
+  --size-15px: 15px;
+  --size-20px: 20px;  
+
+  --font-bold: 400;
+
+
+  --card-radius: 15px;
+  --badge-radius: 8px; 
+
+
+  --padding-sm: var(--size-10px);
+  --padding-md: var(--size-12px) ; 
+  --padding-lg: var(--size-20px) ; 
+
+  }

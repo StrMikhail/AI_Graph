@@ -1,0 +1,13 @@
+
+
+.bg-primary {
+    background-color: red;
+}
+.badge {
+    border-radius: var(--badge-radius);
+    font-size: 10px;
+    padding: 10px 14px;
+}
+.bg-custom {
+    border-radius: var(--badge-radius);
+}

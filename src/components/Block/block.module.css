@@ -1,0 +1,15 @@
+.block {
+    background-color:var(--color-card-default);
+    border-radius: var(--card-radius);
+    padding: 20px;
+}
+
+.contrast {
+    color: var(--color-card-default);;
+    background-color: var(--color-card-contrast);
+}
+
+.transparent {
+    background-color: transparent;
+    padding: 0;
+}
