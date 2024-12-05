@@ -26,16 +26,10 @@ const Badge: FC<BadgeProps> = (props) => {
                     [styles.default] : type === 'default',
                     [styles.contrast] : type === 'primary',
                     [styles.accent] : type === 'accent',
-                })} style={{ fontSize: '14px', lineHeight: '19.6px'}}>
+                })} style={{ fontSize: '0.875rem', lineHeight: '1.225rem'}}>
                     {text}
                 </Typography>
             </div>
-            // <Card className={cx(styles.card, className)}>
-            //     <Card.Body>
-            //         {children}
-            //     </Card.Body>
-            // </Card>
-
     );
 };
 

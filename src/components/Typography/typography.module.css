@@ -5,17 +5,17 @@
 }
 
 .sm{
-	font-size: 12px;
-	line-height: 18px;
+	font-size: var(--size-12px);
+	line-height: var(--size-18px);
 }
 
 .md{
-    size: 12px;
-    line-height:16.8px;
+    size: var(--size-12px);
+    line-height: 16.8px;
 }
 
 .lg{
-	font-size: 18px;   
+	font-size: var(--size-18px);   
 	line-height: 25.2px;
 }
 .bold{

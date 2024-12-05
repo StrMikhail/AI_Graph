@@ -1,7 +1,7 @@
 .block {
     background-color:var(--color-card-default);
     border-radius: var(--card-radius);
-    padding: 20px;
+    padding: var(--padding-lg);
 }
 
 .contrast {

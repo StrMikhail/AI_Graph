@@ -3,18 +3,18 @@
 }
 
 .sm{
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
 }
 
 .md{
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 .lg{
-	font-size: 18px;
-	line-height: 25.2px;
+	font-size: 1.125rem;	
+	line-height: 1.575rem;
 }
 .secondary {
     color: var(--color-secondary);

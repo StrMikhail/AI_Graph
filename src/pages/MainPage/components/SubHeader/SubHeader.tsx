@@ -10,7 +10,7 @@ const SubHeader = () => {
         <div className={styles.subHeader}>
 
             <Block type='contrast' className={styles.A}>
-                <Typography size='md'>Миронов  <br /> Виталий Сергеевич</Typography>
+                <Typography size='lg'>Миронов  <br /> Виталий Сергеевич</Typography>
                 <Image src={Avatar} roundedCircle />                    
             </Block>
 
@@ -26,13 +26,13 @@ const SubHeader = () => {
                 </div>
                 
                 <div className={styles.about}>
-                    <Typography  className={styles.title}>Должность</Typography>
-                    <Typography className={styles.description}>Основатель компании</Typography>
+                    <Typography className={styles.title}>Должность</Typography>
+                    <Typography size='md' className={styles.description}>Основатель компании</Typography>
                 </div>
 
                 <div className={styles.about}>
                     <Typography  className={styles.title}>Запрос</Typography>
-                    <Typography className={styles.description}>Комплексный аудит и оцифровка компании, внедрение <br/> систем управления и операционного директора</Typography>
+                    <Typography size='md' className={styles.description}>Комплексный аудит и оцифровка компании, внедрение <br/> систем управления и операционного директора</Typography>
                 </div>
 
                 <div className={styles.about}>

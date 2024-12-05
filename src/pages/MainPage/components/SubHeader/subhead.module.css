@@ -1,8 +1,8 @@
 
 .subHeader {
     display: grid;
-    gap: var(--padding-lg);
-    grid-template-rows: 110px;
+    gap: var(--gap-md);
+    grid-template-rows: 6.875rem;
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -16,7 +16,7 @@
 }
 
 .A img {
-    height: 70px;
+    height: 5em;
 }
 
 .B {
@@ -24,7 +24,7 @@
     grid-row: 1 / span 1 ;
 
     display: grid;
-    gap: 20px;
+    gap: var(--gap-lg);
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
 
 }
@@ -48,7 +48,7 @@
     text-transform: uppercase;
 }
 .description{
-    font-size: 14px;
+    font-size: 12px;
 }
 .badge{
     max-width: 93.5px;

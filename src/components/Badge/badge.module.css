@@ -3,15 +3,12 @@
     justify-content: center;
     align-items: center;
     border-radius: var(--badge-radius);
-    padding: 8.5px 10px;
-    /* width: 100%; */
-    /* background-color: red; */
+    padding: 8px 12px;
 }
 .default {
     background-color: var(--color-card-default);
     color: var(--color-text);
 }
-
 .primary {
     background-color: var(--color-primary);
     color: var(--color-text-contrast);

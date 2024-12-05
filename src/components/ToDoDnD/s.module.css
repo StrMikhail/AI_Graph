@@ -1,0 +1,14 @@
+.content {
+    height: calc(100% - var(--layout-size));
+    margin-top: var(--padding-lg);
+    display: grid;
+    gap: var(--gap-md);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.drop {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+    height: 100%;
+}

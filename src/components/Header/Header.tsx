@@ -13,15 +13,15 @@ interface HeaderProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, 
 export const Header = ({...props}: HeaderProps) : JSX.Element => {
     return (
         <div className={cx(styles.header, props.className)}>
-            <div className={styles.text}>AI Graph DASHBOARD</div>
-            <div className={styles.right}>   
+            <div className={styles.logo}>AI Graph DASHBOARD</div>
+            <div className={styles.right}>  
                 <div className={styles.input}>
                     <img src={Search}/>
                     <input placeholder="Type here..." type='search' />
                 </div>
                 <button className={cx(styles.button, styles.user)}>
                     <img className={styles.icon} src={User} alt="" />
-                    <Typography>Sign In</Typography>
+                    <Typography size='sm'>Sign In</Typography>
                 </button>
                 <button className={cx(styles.button)}>
                     <img className={styles.icon} src={Sharp} alt="" />

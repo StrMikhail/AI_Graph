@@ -8,7 +8,7 @@ export interface BlockProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElem
 }
 
 const Block: FC<BlockProps> = (props) => {
-    const { children, className, type = 'default' } = props
+    const { children, className, type = 'default', style } = props
 
     return (
             <div className={cx(styles.block, className, 
@@ -16,15 +16,9 @@ const Block: FC<BlockProps> = (props) => {
                     [styles.contrast] : type === 'contrast',
                     [styles.transparent] : type === 'transparent',
                 }
-            )}>
+            )} style={style}>
                 {children}
             </div>
-            // <Card className={cx(styles.card, className)}>
-            //     <Card.Body>
-            //         {children}   
-            //     </Card.Body>
-            // </Card>
-
     );
 };
 
